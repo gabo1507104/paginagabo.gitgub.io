@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gameplay Stats</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #2eac54 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #746d6d;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .stats {
+            margin-top: 20px;
+        }
+        .stats table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .stats th, .stats td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .stats th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mis Juegos y Estadísticas</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main">
+            <h2>Galería de Imágenes</h2>
+            <div class="gallery">
+                <img src="C:\Users\gabri\Downloads\image.png" alt="Imagen 1">
+                <style>
+                    .gallery img:first-child {
+                        width: 10%;
+                    }
+                </style>
+                <img src="c:\Users\gabri\Downloads\divino.png" alt="Imagen 2" style="width: 40%;">
+                <style>
+                    .gallery img:nth-child(2) {
+                        float: right;
+                    }
+                    .gallery img:nth-child(2) {
+                        margin-top: 100px;
+                    }
+                </style>
+            </div>
+            <h2>Estadísticas</h2>
+            <div class="stats">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Juego</th>
+                            <th>Horas Jugadas</th>
+                            <th>rango</th>
+                            <th>MMR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>dota 2</td>
+                            <td>2639.9</td>
+                            <td>divine 1</td>
+                            <td>4620</td>
+                        </tr>
+                        <tr>
+                            <td>valorant</td>
+                            <td>1494</td>
+                            <td>ascendente</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

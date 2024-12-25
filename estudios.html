@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Estudios</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Orbitron', sans-serif;
+            margin: 20px;
+            background-color: #3a3937;
+            color: #1c9ab9;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #3ce767;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .animation {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200px;
+            height: 200px;
+            background-image: url('file:///c:/Users/gabri/Downloads/ingistemasfoto.jpg');
+            background-size: cover;
+            animation: rotate 10s linear infinite;
+            opacity: 0.2;
+        }
+        @keyframes rotate {
+            from {
+                transform: translate(-50%, -50%) rotate(0deg);
+            }
+            to {
+                transform: translate(-50%, -50%) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="animation"></div>
+    <h1>Mis Estudios</h1>
+    <h2>Universidad</h2>
+    <p>Soy estudiante de la Universidad Privada del Norte (UPN) y estoy esutidando ingenieria de sistemas 
+        acutalmente voyen el 7mo ciclo.</p>
+    
+    <h2>Secundaria</h2>
+    <p>Realicé mis estudios secundarios en el colegio Cramex.</p>
+    
+    <h2>Primaria</h2>
+    <p>Realicé mis estudios primarios en el colegio José María Arguedas del Callao.</p>
+</body>
+</html>

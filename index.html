@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mí</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #5868b1;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #7d927d;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .content {
+            padding: 20px;
+            background: #fffdfd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Sobre Mí</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="estudios.html">Estudios</a></li>
+                    <li><a href="gameplay.html">gameplay</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Bienvenido a mi página personal</h2>
+            <p>Hola, soy GABRIEL. Aquí encontrarás información sobre mis proyectos y habilidades.</p>
+        </div>
+    </div>
+</body>
+</html>
+<div class="container">
+    <div class="content" id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="project-gallery">
+            <div class="project">
+                <img src="C:\Users\gabri\Downloads\image001.jpg" alt="Proyecto 1">
+                
+                    <p style="font-size: 14px; line-height: 1.6; color: #333;"></p>
+                        Este proyecto consiste en un Diagrama de Entidad-Relación (DER) para un sistema de base de datos. El DER es una herramienta esencial para diseñar, gestionar y comprender cómo se relacionan las diferentes entidades dentro de una base de datos. A continuación, se desglosan algunas entidades clave y sus atributos dentro de la base de datos:
+                    </p>
+                    <ul style="font-size: 14px; line-height: 1.6; color: #333;">
+                        <li><strong>Ficha:</strong> rne, nombre, apellido, dirección, fecha_nacimiento, sexo, padre, madre, encargado, cod_curso, fecha_matricula</li>
+                        <li><strong>Cursos:</strong> cod_curso, curso, modalidad, sección, jornada</li>
+                        <li><strong>Maestros:</strong> cod_maestro, nombre, apellidos, dirección, teléfono, email</li>
+                        <li><strong>Materias:</strong> cod_materia, materia, cod_maestro</li>
+                        <li><strong>Notas:</strong> rne, cod_curso, cod_materia, año, p1, p2, p3, p4, promedio, recuperación1, recuperación2</li>
+                        <li><strong>Ventas:</strong> nventas, cod_empleado, fecha_venta, rne</li>
+                        <li><strong>Detalle:</strong> nventa, cod_producto, precio_venta, cantidad, total, impuesto, totalapagar</li>
+                        <li><strong>Productos:</strong> cod_producto, producto, precio_costo, utilidad, precio_venta, cod_proveedor</li>
+                        <li><strong>Proveedores:</strong> cod_proveedor, nombreproveedor, dirección, teléfono</li>
+                        <li><strong>Cobros:</strong> cod_cobro, rne, cod_concepto, precio, cantidad, total, fecha_cobro, cod_jornada, cod_empleado</li>
+                        <li><strong>ConceptoPago:</strong> cod_concepto, concepto, precio</li>
+                        <li><strong>Jornadas:</strong> cod_jornada, jornada</li>
+                        <li><strong>Empleados:</strong> cod_empleado, nombre, apellidos, dirección, teléfono, email</li>
+                    </ul>
+            </div>
+            <div class="project">
+                <img src="C:\Users\gabri\Downloads\Imagen de WhatsApp 2024-12-24 a las 13.04.27_649cc7d9.jpg" alt="Proyecto 2">
+                <p>
+                    
+                    Una vez que la operación se completa, el servidor devuelve el resultado a la interfaz de usuario para ser mostrado en la pantalla.</p>
+                    <p style="font-size: 14px; line-height: 1.6; color: #333;"></p>
+                        Este proyecto es una calculadora avanzada que permite realizar operaciones matemáticas complejas. La calculadora está diseñada para ser intuitiva y fácil de usar, con una interfaz gráfica atractiva y funcional. A continuación, se detallan algunas de las características clave del proyecto:
+                    </p>
+                    <ul style="font-size: 14px; line-height: 1.6; color: #333;">
+                        <li><strong>Interfaz Gráfica (GUI):</strong> Diseñada usando HTML y CSS para una apariencia moderna y profesional.</li>
+                        <li><strong>Botones Interactivos:</strong> Permiten a los usuarios ingresar números y seleccionar operaciones matemáticas.</li>
+                        <li><strong>Pantalla:</strong> Muestra los números ingresados y los resultados de las operaciones.</li>
+                        <li><strong>Operaciones Matemáticas:</strong> Implementadas en Python para realizar cálculos precisos.</li>
+                        <li><strong>Interacción Cliente-Servidor:</strong> La lógica de backend está gestionada por Python, utilizando un marco como Flask o Django.</li>
+                    </ul>
+            </div>
+            <div class="project">
+                <img src="C:\Users\gabri\Downloads\Imagen de WhatsApp 2024-12-24 a las 13.11.01_0630f10f.jpg" alt="Proyecto 3">
+                <p>en este proyecto hice algo de humor para una amiga muy especial</p>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .project-gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .project {
+        flex: 1 1 calc(33.333% - 20px);
+        box-sizing: border-box;
+    }
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<script>
+    document.querySelector('nav ul li a[href="#contacto"]').addEventListener('click', function(event) {
+        event.preventDefault();
+        window.location.href = 'https://wa.me/907206238';
+    });
+</script>
+
+<style>
+    header nav ul li a {
+        position: relative;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        transition: color 0.3s ease;
+    }
+    header nav ul li a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #fff;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+    header nav ul li a:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    header nav ul li a:hover {
+        color: #77aaff;
+    }
+</style>
